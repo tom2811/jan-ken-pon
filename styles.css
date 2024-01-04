@@ -141,7 +141,8 @@ span {
     }
 
     #resultDisplay {
-        margin-top: 35px;
+        margin-top: 25px;
+        font-size: 3.5rem;
     }
 
     .score {

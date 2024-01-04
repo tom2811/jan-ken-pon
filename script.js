@@ -59,4 +59,6 @@ function reset() {
     computerScoreDisplay.textContent = computerScore;
     result = "";
     resultDisplay.textContent = result;
+    playerDisplay.textContent = "Player: ";
+    computerDisplay.textContent = "Computer: ";
 }
