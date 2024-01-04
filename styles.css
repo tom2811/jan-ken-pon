@@ -114,3 +114,46 @@ span {
 .reset button:active {
     color: hsl(0, 0%, 100%)
 }
+
+@media (min-width:320px) and (max-width: 480px) {
+   h1 {
+        font-size: 2.5rem;
+        margin: 120px 0 5px 0;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .choices button {
+        font-size: 4.5rem;
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+    }
+
+    #playerDisplay, #computerDisplay {
+        font-size: 1.5rem;
+    }
+
+    #resultDisplay {
+        margin-top: 35px;
+    }
+
+    .score {
+        left: 3%;
+        top: 0;
+    }
+
+    .score p {
+        margin-bottom: -10px;
+    }
+
+    .reset button {
+        font-size: 1.5rem;
+    }
+}
