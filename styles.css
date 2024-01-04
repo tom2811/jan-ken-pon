@@ -34,7 +34,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-button {
+.choices button {
     font-size: 8rem;
     width: 160px;
     height: 160px;
@@ -47,11 +47,11 @@ button {
     text-shadow: 25px 15px 15px hsl(0, 0%, 0%);
 }
 
-button:hover {
+.choices button:hover {
     transform: translateY(-15px);
 }
 
-button:active {
+.choices button:active {
     transform: scale(1.1);
 }
 
@@ -63,6 +63,54 @@ button:active {
 
 #resultDisplay {
     font-size: 4rem;
-    color: var(--main-grey);
     margin-top: -15px;
+}
+
+.green, #playerScoreDisplay {
+    color: hsl(130, 60%, 50%);
+}
+
+.red, #computerScoreDisplay {
+    color: hsl(0, 65%, 45%)
+}
+
+.grey {
+    color: var(--main-grey);
+}
+
+.score {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.score p {
+    font-family: Arial, sans-serif;
+    color: var(--main-grey);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.reset button {
+    font-size: 2rem;
+    color: var(--main-grey);
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.reset button:hover {
+    color: hsl(0, 0%, 70%);
+}
+
+.reset button:active {
+    color: hsl(0, 0%, 100%)
 }
